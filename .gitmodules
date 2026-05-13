@@ -1,0 +1,9 @@
+[submodule "tls-certificates-adaptor-operator"]
+	path = tls-certificates-adaptor-operator
+	url = https://github.com/chanchiwai-ray/tls-certificates-adaptor-operator
+[submodule "tls-translator-charm"]
+	path = tls-translator-charm
+	url = https://github.com/dparv/tls-translator-charm
+[submodule "certificate-translator-operator"]
+	path = certificate-translator-operator
+	url = https://github.com/marcusboden/certificate-translator-operator

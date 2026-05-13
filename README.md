@@ -105,3 +105,11 @@ All three charms are **TLS certificate adaptors**: they bridge the legacy (v1/re
 - **Dangerous CN substitution**: replaces non-public CNs with SANs, altering certificate identity.
 - **Legacy test framework**: still uses `ops.testing.Harness` instead of `Context`.
 - **Dead code**: writes `chain` key to v1 relations that do not consume it; defines a `cluster` peer relation that is never used.
+
+## Agents and Models
+
+| Pillar | certificate-translator | tls-certificates-adaptor | tls-translator |
+|---|---|---|---|
+| AGENTS.md | https://pastebin.canonical.com/p/qVmQgWWRrB/ | https://github.com/chanchiwai-ray/templates/tree/main/charm | none |
+| Model | moonshotai/kimi-k2.6 | GPT 5 | Claude |
+| Skills | none | none | https://github.com/chanchiwai-ray/agent-skills |
